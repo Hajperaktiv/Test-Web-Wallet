@@ -4,8 +4,8 @@ console.log('hello world');
 Moralis.initialize("xgpO9MoybJ36ov7G7PrlFvedPXRJdAoxlhx9m4LD");
 Moralis.serverURL = "https://lrfa52quofty.usemoralis.com:2053/server";
 
-let homepage = "http://127.0.0.1:5500/wallet/index.html";
-let dashboard = "http://127.0.0.1:5500/wallet/dashboard.html";
+let homepage = "http://127.0.0.1:5500/index.html";
+let dashboard = "http://127.0.0.1:5500/dashboard.html";
 
 // REDIRECT USER BASED ON STATUS
 if (Moralis.User.current() == null && window.location.href != homepage) {
